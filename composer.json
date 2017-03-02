@@ -1,0 +1,35 @@
+{
+    "name": "greedying/sdk-sdk",
+    "description": "sdk of sdk, sdk的sdk",
+    "keywords": [
+        "sdk"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "greedying",
+            "email": "greedying@163.com"
+        }
+    ],
+    "require": {
+        "php":">=5.5.0",
+        "ext-openssl": "*",
+        "pimple/pimple": "~3.0",
+        "monolog/monolog": "^1.17",
+        "doctrine/cache": "~1.4",
+        "guzzlehttp/guzzle": "~6.2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SdkSdk\\": "src/"
+        }
+    },
+    "repositories": [
+      {"type": "composer", "url": "https://packagist.phpcomposer.com"},
+      {"packagist": false}
+    ]
+
+}
